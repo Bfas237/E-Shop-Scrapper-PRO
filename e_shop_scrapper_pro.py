@@ -57,7 +57,7 @@ print(total_products)
 
 # Calculate the total number of pages
 
-total_pages = (total_products - 1) // 16 + 1
+total_pages = (total_products - 1) // products_per_page + 1
 
 # Loop through each page
 for page in tqdm(range(1, total_pages + 1), desc='Scraping Pages'):
