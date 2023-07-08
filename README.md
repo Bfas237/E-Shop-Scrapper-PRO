@@ -34,7 +34,7 @@ There are two ways to install E-Shop Scrapper PRO: using a release package or by
 ### Installation via Release
 
 1. Go to the [Releases](https://github.com/bfas237/e-shop-scrapper-pro/releases) page of the GitHub repository.
-2. Download the latest release package (`e-shop-scrapper-pro-v1.0.zip`).
+2. Download the latest release package (`e-shop-scrapper-pro.zip`).
 3. Extract the contents of the ZIP file to your desired location.
 4. Open a command prompt or terminal and navigate to the extracted directory.
 5. Run the following command to install the required dependencies:
