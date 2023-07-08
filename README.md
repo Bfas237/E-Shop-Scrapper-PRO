@@ -14,6 +14,10 @@
 - [License](#license)
 - [Contact](#contact)
 
+![image](https://github.com/Bfas237/E-Shop-Scrapper-PRO/assets/24810035/b94a3736-3237-4fd7-b04a-aa6457956961)
+
+
+
 ## Description
 
 **E-Shop Scrapper PRO** is a Python script that scrapes product data from an e-commerce website and exports it to a CSV file. It utilizes web scraping techniques to extract information such as product names, categories, prices, descriptions, and images. The script is designed to be highly customizable and can be adapted to scrape data from different e-commerce websites.
