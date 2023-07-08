@@ -29,17 +29,40 @@ E-Shop Scrapper PRO is a Python script that scrapes product data from an e-comme
 
 ## Installation
 
-1. Clone the repository:
+There are two ways to install E-Shop Scrapper PRO: using a release package or by forking and cloning the repository.
 
-```bash
-git clone https://github.com/your-username/e-shop-scrapper-pro.git
-```
+### Installation via Release
 
-2. Install the required Python packages:
+1. Go to the [Releases](https://github.com/bfas237/e-shop-scrapper-pro/releases) page of the GitHub repository.
+2. Download the latest release package (`e-shop-scrapper-pro-v1.0.zip`).
+3. Extract the contents of the ZIP file to your desired location.
+4. Open a command prompt or terminal and navigate to the extracted directory.
+5. Run the following command to install the required dependencies:
 
-```bash
-pip install -r requirements.txt
-```
+   ```shell
+   pip install -r requirements.txt
+   ```
+
+### Installation by Forking and Cloning
+
+1. Fork the [E-Shop Scrapper PRO](https://github.com/bfas237/e-shop-scrapper-pro) repository to your GitHub account.
+2. Clone the forked repository to your local machine using the following command:
+
+   ```shell
+   git clone https://github.com/bfas237/e-shop-scrapper-pro.git
+   ```
+
+3. Navigate to the cloned directory:
+
+   ```shell
+   cd e-shop-scrapper-pro
+   ```
+
+4. Run the following command to install the required dependencies:
+
+   ```shell
+   pip install -r requirements.txt
+   ```
 
 ### Python Installation
 
@@ -59,6 +82,7 @@ Now that Python is installed, you can proceed with setting up the project and in
 ## Requirements
 
 - Python (3.x)
+- Pip (3.x)
 - requests (2.26.0)
 - BeautifulSoup (4.9.3)
 - pandas (1.3.3)
@@ -132,3 +156,7 @@ For more information or questions, you can reach us on:
 
 - Website: [about.me/bfaschat](https://about.me/bfaschat)
 - Twitter: [@bfaschat](https://twitter.com/bfaschat)
+
+---
+
+Thank you for using E-Shop Scrapper PRO. Happy scraping!
