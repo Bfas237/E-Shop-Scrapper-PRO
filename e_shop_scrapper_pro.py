@@ -29,11 +29,35 @@ base_url = "https://rhapsodybikeparts.com/shop/page/"  # Base URL for the produc
 
 # Send a request to the first page to get the total number of products
 response = requests.get(base_url + "1", headers=headers)
-soup = BeautifulSoup(response.text, 'html.parser')
-total_products = len(soup.find_all("h2", {"class": "woocommerce-loop-product__title"}))
+
+# Define the number of products displayed per page
+products_per_page = 16 
+
+# Find the pagination element in the HTML
+pagination_info = soup.find('nav', class_='woocommerce-pagination')
+
+if pagination_info:
+    # Extract the page numbers from the pagination element
+    page_numbers = pagination_info.find_all('a', class_='page-numbers')
+    
+    # Check if there are page numbers available
+    if page_numbers:
+        # Get the second-to-last page number (last page often represented by "next" link)
+        last_page = int(page_numbers[-2].text)
+    else:
+        last_page = 0
+        
+    # Calculate the total number of products based on the last page number and products per page
+    total_products = last_page * products_per_page
+else:
+    # If no pagination information is found, set total_products to 0
+    total_products = 0
+
+print(total_products)
 
 # Calculate the total number of pages
-total_pages = (145 - 1) // 16 + 1
+
+total_pages = (total_products - 1) // 16 + 1
 
 # Loop through each page
 for page in tqdm(range(1, total_pages + 1), desc='Scraping Pages'):
