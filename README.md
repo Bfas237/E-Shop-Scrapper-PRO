@@ -97,11 +97,11 @@ There are two ways to install E-Shop Scrapper PRO: using a release package or by
 
 - Python (3.x)
 - Pip (3.x)
-- requests (2.26.0)
-- BeautifulSoup (4.9.3)
-- pandas (1.3.3)
-- tqdm (4.62.3)
-- tabulate (0.8.9)
+- requests
+- BeautifulSoup
+- pandas
+- tqdm
+- tabulate
 
 ## Files
 
