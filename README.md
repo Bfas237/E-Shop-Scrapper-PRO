@@ -16,7 +16,7 @@
 
 ## Description
 
-E-Shop Scrapper PRO is a Python script that scrapes product data from an e-commerce website and exports it to a CSV file. It utilizes web scraping techniques to extract information such as product names, categories, prices, descriptions, and images. The script is designed to be highly customizable and can be adapted to scrape data from different e-commerce websites.
+**E-Shop Scrapper PRO** is a Python script that scrapes product data from an e-commerce website and exports it to a CSV file. It utilizes web scraping techniques to extract information such as product names, categories, prices, descriptions, and images. The script is designed to be highly customizable and can be adapted to scrape data from different e-commerce websites.
 
 ## Features
 
@@ -26,6 +26,31 @@ E-Shop Scrapper PRO is a Python script that scrapes product data from an e-comme
 - Supports customization for different e-commerce websites
 - Writes the scraped data to a CSV file
 - Displays a progress bar during the scraping process
+
+
+## Prerequisites
+
+Before using **E-Shop Scrapper PRO**, make sure you have the following knowledge and tools:
+
+- Basic understanding of Python programming language
+- Familiarity with PHP, HTML and CSS
+- Familiar with how Woocommerce, and Wordpress works
+- Python 3 installed on your system ([Download Python](https://www.python.org/downloads/))
+
+
+### Python Installation
+
+1. Install Python: If Python is not already installed on your system, follow these steps:
+
+   - Visit the official Python website at https://www.python.org.
+   - Go to the Downloads section and select the appropriate Python version for your operating system (Windows, macOS, or Linux).
+   - Download the installer and run it.
+   - Follow the installation wizard instructions and make sure to check the box that says "Add Python to PATH" during the installation process.
+   - Once the installation is complete, open a command prompt (Windows) or terminal (macOS/Linux) and type `python --version` to verify that Python is installed correctly. You should see the version number of Python printed in the console.
+
+2. Verify Python installation: Open a command prompt or terminal and run `python --version` to ensure that Python is installed and accessible from the command line. You should see the version number of Python displayed.
+
+Now that Python is installed, you can proceed with setting up the project and installing the dependencies as outlined in the rest of the README file.
 
 ## Installation
 
@@ -63,21 +88,6 @@ There are two ways to install E-Shop Scrapper PRO: using a release package or by
    ```shell
    pip install -r requirements.txt
    ```
-
-### Python Installation
-
-1. Install Python: If Python is not already installed on your system, follow these steps:
-
-   - Visit the official Python website at https://www.python.org.
-   - Go to the Downloads section and select the appropriate Python version for your operating system (Windows, macOS, or Linux).
-   - Download the installer and run it.
-   - Follow the installation wizard instructions and make sure to check the box that says "Add Python to PATH" during the installation process.
-   - Once the installation is complete, open a command prompt (Windows) or terminal (macOS/Linux) and type `python --version` to verify that Python is installed correctly. You should see the version number of Python printed in the console.
-
-2. Verify Python installation: Open a command prompt or terminal and run `python --version` to ensure that Python is installed and accessible from the command line. You should see the version number of Python displayed.
-
-Now that Python is installed, you can proceed with setting up the project and installing the dependencies as outlined in the rest of the README file.
-
 
 ## Requirements
 
