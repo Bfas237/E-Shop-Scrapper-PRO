@@ -288,7 +288,7 @@ for link in tqdm(productlinks, desc='Scraping Products'):
     "tax:product_tag": ', '.join(tags) if tags else None,
     "tax:product_shipping_class": "",
     "meta:partdo_post_views_count": "",
-    "meta:total_sales": "",
+    "meta:total_sales": "", 
     "attribute": attribute,
     "attribute_data": attribute_data,
     "attribute_default": attribute_default
