@@ -1,0 +1,67 @@
+{
+    "WooCommerce": {
+        "ey_point": {
+            "type": {
+                "class": "products",
+                "html": "ul"
+            },
+            "data": "",
+            "desc": "used to detect entry point"
+        },
+        "pt_item": {
+            "type": {
+                "class": "product type-product",
+                "html": "li"
+            },
+            "data": "",
+            "desc": "used to detect single product"
+        },
+        "pt_name": {
+            "type": {
+                "class": "",
+                "html": ""
+            },
+            "data": "",
+            "desc": "used to detect product name"
+        },
+        "pt_image": {
+            "type": {
+                "class": "",
+                "html": ""
+            },
+            "data": "",
+            "desc": "used to detect product image"
+        },
+        "pt_link": {
+            "type": {
+                "class": "",
+                "html": ""
+            },
+            "data": "",
+            "desc": "used to detect product link"
+        },
+        "pn_mark": {
+            "type": {
+                "class": "woocommerce-pagination",
+                "html": "nav"
+            },
+            "data": "",
+            "desc": "used to detect pagination"
+        },
+
+        "pn_num":{
+            "type":{"class":"page-numbers", "html":"a"},
+            "data":"",
+            "desc":"used to detect pagination numbering"
+        },
+
+        "pt_mark": {
+            "type": {
+                "class": "",
+                "html": ""
+            },
+            "data": "",
+            "desc": "used to determine number of pages to scrape"
+        }
+    }
+}
