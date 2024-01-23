@@ -1,5 +1,4 @@
-requests
+asyncio
+aiohttp
 beautifulsoup4
-pandas
-tqdm
-tabulate
+

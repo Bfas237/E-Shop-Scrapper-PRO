@@ -1,4 +1,0 @@
-asyncio
-aiohttp
-beautifulsoup4
-
