@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools >= 61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "escrapper"
+version = "0.1.0"
+description = "Automatic Adapter of Escrapper for scrapping WooCommerce websites"
+readme = "README.md"
+authors = [{name = "Vision4Geeks", email = "Vision4Geeks@gmail.com"}]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["EScrapper", "Web scrapper", "WooCommerce", "Wordpress", "Scrapper"]
+requires-python = ">=3.9"
+dependencies = [
+    # direct dependencies
+    'aiohttp',
+    'aiofiles',
+    'csv',
+    'pandas',
+    'tqdm',
+    'validators',
+    'bs4',
+    'geocoder',
+    'colorist'
+]
+
+[project.optional-dependencies]
+testing = ["pytest"]
+coverage = ["pytest-cov"]
+
+[project.urls]
+Homepage = "https://github.com/Vision4Geeks/scrapper_api"

@@ -1,6 +1,9 @@
-requests
-beautifulsoup4
+aiohttp
+aiofiles
+csv
 pandas
 tqdm
-tabulate
-aiofiles
+validators
+bs4
+geocoder
+colorist
